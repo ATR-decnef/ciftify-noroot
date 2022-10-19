@@ -1,7 +1,5 @@
 FROM jupyter/scipy-notebook
 
-USER root
-
 # Get connectome-workbench
 RUN apt-get update && \
     apt-get install -y curl gnupg gnupg1 gnupg2 python3-pip
