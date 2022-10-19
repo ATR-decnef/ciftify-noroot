@@ -4,7 +4,7 @@
 
 [![DOI](https://zenodo.org/badge/67087965.svg)](https://zenodo.org/badge/latestdoi/67087965)
 
-# ciftify
+# ciftify - this time with 100% less root!
 
 The tools of the Human Connectome Project (HCP) adapted for working with non-HCP datasets
 
