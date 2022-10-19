@@ -6,6 +6,16 @@
 
 # ciftify - this time with 100% less root!
 
+instructions to create docker image:
+1. clone the repository
+2. in the terminal, cd to the cloned repository
+3. run the command `docker build -t ciftify_noroot:latest .`
+
+if you have already built the "ciftify_noroot" image:
+1. `docker run --rm -v [...] --user "$(id -u):$(id -g)" ciftify_noroot:latest [...]`
+2. insert your mount drives instead of [...] after -v
+3. insert your runtime arguments in the [...] at the end
+
 The tools of the Human Connectome Project (HCP) adapted for working with non-HCP datasets
 
 *ciftify* is a set of three types of command line tools:
